@@ -12,7 +12,7 @@ const Hero = () => {
         className='bg-cover flex flex-col justify-center text-center h-full'>
         <br></br>
         <br></br>
-            <p className='text-[#FF847C] font-bold p-2'>Everything Local is your crunchy guide to the city</p>
+            <p className='text-[#FF847C] font-bold p-2'>Everything Local is your crunchy guide to the city of</p>
             <div className='flex justify-center items-center'>
                 <div className='font-bold text-[#FF847C]'>
                 <FaLocationArrow size={50} />
