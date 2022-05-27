@@ -10,7 +10,7 @@ import CraftBeer from './components/CraftBeer';
 import FarmToTable from './components/FarmToTable';
 import FarmersMarkets from './components/FarmersMarkets';
 import PetFriendly from './components/PetFriendly';
-import LgbtqOwned from './components/LgbtqOwned';
+import LGBTQowned from './components/LGBTQowned';
 import TacoTrucks from './components/TacoTrucks';
 
 
@@ -28,14 +28,14 @@ function App () {
       <Footer />
     </div>
 
-    <div className='hidden'>
+    <div className=''>
       <FormSignup />
       <Login />
       <CraftBeer />
       <FarmToTable />
       <FarmersMarkets />
       <PetFriendly />
-      <LgbtqOwned />
+      <LGBTQowned />
       <TacoTrucks />
     </div>
   </>
