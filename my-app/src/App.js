@@ -12,7 +12,9 @@ import FarmersMarkets from './components/FarmersMarkets';
 import PetFriendly from './components/PetFriendly';
 import LGBTQowned from './components/LGBTQowned';
 import TacoTrucks from './components/TacoTrucks';
-
+import Article1 from './components/Article1';
+import Article2 from './components/Article2';
+import Article3 from './components/Article3';
 
 
 
@@ -28,7 +30,7 @@ function App () {
       <Footer />
     </div>
 
-    <div className=''>
+    <div className='hidden'>
       <FormSignup />
       <Login />
       <CraftBeer />
@@ -37,6 +39,9 @@ function App () {
       <PetFriendly />
       <LGBTQowned />
       <TacoTrucks />
+      <Article1 />
+      <Article2 />
+      <Article3 />
     </div>
   </>
   

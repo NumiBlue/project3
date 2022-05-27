@@ -1,9 +1,9 @@
 import React from 'react'
 
-const article3 = () => {
+const Article3 = () => {
   return (
     <div>
-        <div name='article1' className='w-full md:h-screen  bg-black'>
+        <div name='article3' className='w-full md:h-screen  bg-black'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#99B898] border-[#E84A5F]'>Text</p>
@@ -15,4 +15,4 @@ const article3 = () => {
   )
 }
 
-export default article3
+export default Article3
