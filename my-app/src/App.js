@@ -6,25 +6,27 @@ import  Community from "./components/Community";
 import  Footer  from "./components/Footer";
 import FormSignup from './components/FormSignup';
 import Login from './components/Login'
-import FormSuccess from './components/FormSuccess'
+
 
 
 
 function App () {
 
   return (
-
+<>
     <div>
       <Navbar />
       <Hero />
       <Events />
       <Community />
       <Footer />
+    </div>
+
+    <div className=''>
       <FormSignup />
       <Login />
-      <FormSuccess />
     </div>
-  
+  </>
   
   );
 }

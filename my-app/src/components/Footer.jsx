@@ -10,8 +10,8 @@ const Footer = () => {
     return (
       <div className='max-w-full mx-auto py-8 px-4  bg-gradient-to-r from-black to-[#2A363B]'>
         <div>
-            <p className='text-[#99B898] text-center'>Did we miss your favorite spot? Share it with us!</p>
-            <p className='text-[#99B898] text-center'>Let us know by posting yours or your dogs picture at your favorite spot in Austin!</p>
+            <p className='text-[#99B898] text-center'>Did we miss something? Share it with us!</p>
+            <p className='text-[#99B898] text-center'>Tag us at all your favorite spots in Austin!</p>
             <br></br>
             <p className='text-[#E84A5F] text-center font-bold text-3xl'>#EverythingLocal</p>
             <br></br>
