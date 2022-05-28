@@ -30,7 +30,7 @@ function App () {
       <Footer />
     </div>
 
-    <div className='hidden'>
+    <div className=''>
       <FormSignup />
       <Login />
       <CraftBeer />
