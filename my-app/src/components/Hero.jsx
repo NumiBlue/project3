@@ -29,7 +29,7 @@ const Hero = () => {
 
                  <div>
                      <button onClick={FormSignup} className='bg w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Sign Up/Sign In</button>
-                 </div>
+                 </div>                               
             
         </div>
     </div>        
