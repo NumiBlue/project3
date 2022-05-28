@@ -2,7 +2,7 @@ import React from 'react';
 import  Navbar  from "./components/Navbar";
 import Hero  from "./components/Hero";
 import  Events   from "./components/Events";
-import  Community from "./components/Community";
+import  Weather from "./components/Weather";
 import  Footer  from "./components/Footer";
 import FormSignup from './components/FormSignup';
 import Login from './components/Login'
@@ -25,8 +25,8 @@ function App () {
     <div>
       <Navbar />
       <Hero />
+      <Weather />
       <Events />
-      <Community />
       <Footer />
     </div>
 
