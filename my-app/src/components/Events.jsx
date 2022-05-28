@@ -11,10 +11,10 @@ const Events = () => {
       
         <body>
     <div name='events' 
-      class="bg-gray-900 grid-cols-3 h-screen flex justify-center items-center gap-x-16 text-white"
+      class="bg-gray-900 h-screen flex justify-center items-center gap-x-16 text-white"
     >
       <div
-        class="w-[300px] h-[420px] grid-item bg-transparent cursor-pointer group perspective"
+        class="w-[300px] h-[420px] bg-transparent cursor-pointer group perspective"
       >
         <div
           class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000"
@@ -44,7 +44,7 @@ const Events = () => {
       </div>
 
       <div
-        class="w-[300px] h-[420px] grid-item bg-transparent cursor-pointer group perspective"
+        class="w-[300px] h-[420px] bg-transparent cursor-pointer group perspective"
       >
         <div
           class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000"
@@ -74,7 +74,7 @@ const Events = () => {
       </div>
 
       <div
-        class="w-[300px] h-[420px] grid-item bg-transparent cursor-pointer group perspective"
+        class="w-[300px] h-[420px] bg-transparent cursor-pointer group perspective"
       >
         <div
           class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000"

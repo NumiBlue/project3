@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
-import { TiWeatherPartlySunny } from 'react-icons/ti'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -20,11 +19,11 @@ const Navbar = () => {
           <ul className='flex text-[#99B898] items-center'>
             <li><Link to="hero" smooth={true} duration={500}>
             About</Link></li>
-            <li><Link to="weatherapi" smooth={true} duration={500}>
-            <TiWeatherPartlySunny size={30} />
-            </Link></li>
             <li><Link to="events" smooth={true} duration={500}>
             Events
+            </Link></li>
+            <li><Link to="community" smooth={true} duration={500}>
+            Community
             </Link></li>
           </ul>
         </div>
@@ -39,10 +38,10 @@ const Navbar = () => {
           <ul className='text-2xl'>
           <li><Link to="hero" smooth={true} duration={500}>
             About</Link></li>
-            <li><Link to="weatherapi" smooth={true} duration={500}>
-            <TiWeatherPartlySunny size={30} />
-            </Link></li>
             <li><Link to="events" smooth={true} duration={500}>
+            Events
+            </Link></li>
+            <li><Link to="community" smooth={true} duration={500}>
             Community
             </Link></li>
           </ul>
