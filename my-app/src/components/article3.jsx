@@ -13,6 +13,6 @@ const Article3 = () => {
         </div>
     </div>
   )
-}
+} 
 
 export default Article3

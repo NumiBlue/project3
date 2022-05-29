@@ -15,6 +15,7 @@ import TacoTrucks from './components/TacoTrucks';
 import Article1 from './components/Article1';
 import Article2 from './components/Article2';
 import Article3 from './components/Article3';
+import FormSuccess from './components/FormSuccess';
 
 
 
@@ -33,6 +34,7 @@ function App () {
     <div className=''>
       <FormSignup />
       <Login />
+      <FormSuccess />
       <CraftBeer />
       <FarmToTable />
       <FarmersMarkets />
