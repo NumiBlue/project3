@@ -10,11 +10,12 @@ import CraftBeer from './components/CraftBeer';
 import FarmToTable from './components/FarmToTable';
 import FarmersMarkets from './components/FarmersMarkets';
 import PetFriendly from './components/PetFriendly';
-import LGBTQowned from './components/LGBTQowned';
+import LGBTQowned from './components/LgbtqOwned';
 import TacoTrucks from './components/TacoTrucks';
 import Article1 from './components/Article1';
 import Article2 from './components/Article2';
 import Article3 from './components/Article3';
+import FormSuccess from './components/FormSuccess';
 
 
 
@@ -30,9 +31,10 @@ function App () {
       <Footer />
     </div>
 
-    <div className=''>
+    <div className='hidden'>
       <FormSignup />
       <Login />
+      <FormSuccess />
       <CraftBeer />
       <FarmToTable />
       <FarmersMarkets />
