@@ -31,7 +31,7 @@ function App () {
       <Footer />
     </div>
 
-    <div className=''>
+    <div className='hidden'>
       <FormSignup />
       <Login />
       <FormSuccess />
