@@ -10,7 +10,7 @@ import CraftBeer from './components/CraftBeer';
 import FarmToTable from './components/FarmToTable';
 import FarmersMarkets from './components/FarmersMarkets';
 import PetFriendly from './components/PetFriendly';
-import LGBTQowned from './components/LgbtqOwned';
+import LGBTQowned from './components/LGBTQowned';
 import TacoTrucks from './components/TacoTrucks';
 import Article1 from './components/Article1';
 import Article2 from './components/Article2';
@@ -31,7 +31,7 @@ function App () {
       <Footer />
     </div>
 
-    <div className='hidden'>
+    <div className=''>
       <FormSignup />
       <Login />
       <FormSuccess />
