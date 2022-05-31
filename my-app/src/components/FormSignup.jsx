@@ -2,6 +2,7 @@ import React from 'react';
 import signupImg from '../assets/austin.jpg';
 import useForm from '../components/useForm';
 import validate from '../components/validateInfo';
+import  Login  from './Login';
 
 
 
@@ -73,7 +74,7 @@ const FormSignup = ({ submitForm }) => {
                     {errors.confirmPassword && <p className='text-red-600'>{errors.confirmPassword}</p>}
                 </div>
                 <button className='w-full py-3 mt-6 relative text-white'>Register</button>
-                <span className='text-center mt-6'>Already have an account? Sign in <a href='../components/Login'>HERE</a>
+                <span className='text-center mt-6'>Already have an account? Sign in <a href= {Login} >HERE</a>
                 </span>
             </form>
         </div>
