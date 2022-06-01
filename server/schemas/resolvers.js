@@ -36,7 +36,7 @@ const resolvers = {
              const user = await User.create(args);
              const token = signToken(user);
              
-             return { token, user };
+             return { user, token };
          },
          addComment: async (parent, args, context) => {
             if (context.user) {
