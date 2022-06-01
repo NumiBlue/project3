@@ -1,15 +1,9 @@
 const { gql } = require('apollo-server-express');
 
 // models are to be filled in below
-const typeDefs = gql`
-type Query {
-    me: User
-    comment(_id: ID!): Comment
-    users: [User]
-    user(username: String!): User
-}  
+const typeDefs = gql` 
 type User{
-    _id: ID
+    _id: ID!
     username: String
     email: String
     comments: [Comment]
@@ -36,9 +30,16 @@ type Auth {
     user: User
 }
 
+type Query {
+    me: User
+    comment(_id: ID!): Comment
+    users: [User]
+    user(username: String!): User
+} 
+
 type Mutation {
     login(email: String!, password: String!): Auth
-    addUser(username: String!, email: String!, password: String!): User
+    addUser(username: String!, email: String!, password: String!): Auth
     addComment(CommentId: ID!, commentBody: String!): Comment
     addSubcomment(thoughtId: ID!, subcommentBody: String!): Comment
 }
